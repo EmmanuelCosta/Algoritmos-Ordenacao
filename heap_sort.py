@@ -4,9 +4,6 @@ def funcao_auxiliar(lista, n, i):
     - n: tamanho da lista
     - i: índice do nó raiz a ser ajustado
 
-    Vantagens: Util para grandes listas, complexidade não vai mudar.
-
-    Desvantagens: pode gastar tempo com valores iguais, mais complexo de implementar.
     """
     maior = i        # Inicialmente, o maior é a raiz
     esquerda = 2 * i + 1  # Índice do filho esquerdo
@@ -28,8 +25,15 @@ def funcao_auxiliar(lista, n, i):
 
 def heap_sort(lista):
     """
+    Transforma o array em um heap, depois extrai o maior elemento repetidamente, reorganizando o heap até ordenar tudo.
+    
+    Vantagens: Util para grandes listas, complexidade não vai mudar.
+
+    Desvantagens: pode gastar tempo com valores iguais, mais complexo de implementar.
+    
     Função que implementa o algoritmo Heap Sort.
     Ordena a lista em ordem crescente.
+        
     """
     n = len(lista)
 
