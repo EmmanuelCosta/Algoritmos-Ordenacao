@@ -2,10 +2,13 @@ def counting_sort(lista):
     """
     Implementação do Counting Sort.
     Ordena uma lista de inteiros não negativos.
+    Ordenar um array de números inteiros quando o intervalo dos valores (mínimo e máximo) é conhecido e não é muito grande.
 
     Vantagem: Muito rapido para listas pequenas, não vai perder tempo com números iguais(repetidos)
-
+    
     Desvantagens: Só pode ser usado com números inteiros, não deve ser usado com listas grandes.
+
+    Obs.: Complexidade O(n + k) onde n = número de elementos no array de entrada, k = tamanho do intervalo dos valores
     """
     if not lista:
         return []
