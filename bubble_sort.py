@@ -1,12 +1,14 @@
 def bubble_sort(lista):
     """
     Função que implementa o algoritmo de ordenação Bubble Sort.
-    Ordena a lista fornecida em ordem crescente.
+    Bubble Sort é um algoritmo de ordenação simples que funciona comparando elementos adjacentes e trocando-os de lugar se estiverem na ordem errada. 
+    Isso faz com que os maiores (ou menores) valores "borbulhem" para o final da lista, daí o nome "bubble".
 
+    
     Vantagens: um pouco simples de implementar, se os elementos forem iguais não precisa realizar troca.
 
     Desvantagens: ruim com listas grandes visto que pode ter que percorrer a lista várias vezes até 
-    organiza-la.
+    organiza-la. Complexidade de tempo O(n^2).
     """
     n = len(lista)
     
