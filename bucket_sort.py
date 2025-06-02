@@ -2,6 +2,7 @@ def bucket_sort(lista):
     """
     Implementação simples do Bucket Sort para números entre 0 e 1.
     Bucket Sort é um algoritmo que divide os dados em vários "baldes" (subgrupos), ordena cada balde individualmente 
+    ficando a sua escolha qual algoritmo usar em cada balde.
     (geralmente com um algoritmo simples como Insertion Sort) e depois junta tudo para formar o array ordenado.
 
     Vantagens: Muito eficiente para floats uniformes, rasoavelmente facil de implementar.
