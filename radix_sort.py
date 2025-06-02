@@ -34,6 +34,8 @@ def radix_sort(lista):
     Vantagens: rápido para inteiros pequenos, mantém a ordem dos números repetidos
 
     Desvantagens: ineficiente para números muito grandes, ocupa mais espaço na hora de rodar.
+
+    Obs.: Complexidade O(d * (n + k)) onde d é o número de dígitos dos maiores números, n é o número de elementos, k é a base (ex: 10 para decimal).
     """
     if not lista:
         return
