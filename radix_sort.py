@@ -35,7 +35,8 @@ def radix_sort(lista):
 
     Desvantagens: ineficiente para números muito grandes, ocupa mais espaço na hora de rodar.
 
-    Obs.: Complexidade O(d * (n + k)) onde d é o número de dígitos dos maiores números, n é o número de elementos, k é a base (ex: 10 para decimal).
+    Obs.: Complexidade O(d * (n + k)) onde d é o número de dígitos dos maiores números, n é o número de elementos,
+    k é a base (ex: 10 para decimal).
     """
     if not lista:
         return
