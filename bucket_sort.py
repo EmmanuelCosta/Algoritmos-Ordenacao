@@ -5,7 +5,7 @@ def bucket_sort(lista):
     ficando a sua escolha qual algoritmo usar em cada balde.
     (geralmente com um algoritmo simples como Insertion Sort) e depois junta tudo para formar o array ordenado.
 
-    Vantagens: Muito eficiente para floats uniformes, rasoavelmente facil de implementar.
+    Vantagens: Muito eficiente para floats uniformes, rasoavelmente facil de implementar, possibilidade de paralelização (buckets independentes).
 
     Desvantagens: Exige conhecimento do intervalo dos numeros, usa listas extras para auxiliar
     consequentemente usando mais memória.
