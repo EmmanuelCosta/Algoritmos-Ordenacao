@@ -7,7 +7,8 @@ def bucket_sort(lista):
     Vantagens: Muito eficiente para floats uniformes, rasoavelmente facil de implementar.
 
     Desvantagens: Exige conhecimento do intervalo dos numeros, usa listas extras para auxiliar.
-    Complexidade depende da quantidade de buckets
+    Obs.: Complexidade de tempo vai depender da distribuição dos buckets e qual algoritmo de ordenação  vai ser feito dentro do bucket. 
+    O(n+k) onde n é o número de elementos e k é o número de buckets.
     """
     n = len(lista)
     if n == 0:
